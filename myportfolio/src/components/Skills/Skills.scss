@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .skills {
+    margin-top: 0;
+    background-image: url(../../assets/solar.png); 
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    position: relative; 
+
+    .stars{
+      background-image: url("../../assets/stars.png");
+      background-size: cover;
+      background-position: bottom;
+      width:100%;
+      height: 100%;
+  }
+  }
+  
+  .solar-logo {
+    position: absolute;
+
+      
+    .solar-img {
+        height: 100px;
+        width: auto;
+        position: relative;
+        z-index:3;
+
+        &:hover{
+          scale:1.1;
+        }
+      }
+  
+    &.postman {
+      left: 5%;
+      top: 25%;
+    }
+  
+    &.cpp {
+      left: 75%;
+      top: 40%;
+    }
+  
+    &.numpy {
+      left: 45%;
+      top: 5%;
+    }
+  
+    &.python {
+      left: 28%;
+      top: 63%;
+    }
+  
+    &.github {
+      left: 23%;
+      top: 85%;
+    }
+  
+    &.java {
+      left: 45%;
+      top: 30%;
+    }
+  
+    &.pandas {
+      left: 75%;
+      top: 10%;
+    }
+  
+    &.sass {
+      left: 16%;
+      top: 45%;
+    }
+  
+    &.spring {
+      left: 65%;
+      top: 60%;
+    }
+  
+    &.sql {
+      left: 30%;
+      top: 35%;
+    }
+  
+    &.mysql {
+      left: 60%;
+      top: 20%;
+    }
+  
+    &.flask {
+      left: 80%;
+      top: 80%;
+    }
+  
+    &.mern {
+      left: 40%;
+      top: 65%;
+    }
+  
+    &.html {
+      left: 60%;
+      top: 40%;
+    }
+  
+    &.jupyter {
+      left: 60%;
+      top: 85%;
+    }
+
+  
+    &.mern .solar-img {
+      height: 200px;
+    }
+    &.java .solar-img {
+        height: 150px;
+      }
+      &.spring .solar-img {
+        height: 150px;
+      }
+      &.pandas .solar-img {
+        height: 120px;
+      }
+    
+  }
+  

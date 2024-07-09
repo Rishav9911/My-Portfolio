@@ -1,0 +1,64 @@
+
+
+.experience-section {
+    background-color: #f4f4f4;
+    height:100%;
+
+  }
+  
+  .vertical-timeline-element--work {
+    padding:2px 2px;
+    margin-top:70px;
+  }
+  
+  .vertical-timeline-element-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color:white;
+  }
+  
+  .vertical-timeline-element-subtitle {
+    font-size: 1.5rem;
+    margin-top:1rem;
+    margin-bottom:3rem;
+    color:black;// rgba(255, 255, 255, 0.7); 
+  }
+  
+  .vertical-timeline-element p {
+    font-size: 1.5rem;
+    line-height:0.1rem;
+    color:white;
+  }
+
+ 
+  @media (max-width: 768px) {
+    .vertical-timeline-element-title,
+    .vertical-timeline-element-subtitle,
+    .vertical-timeline-element p {
+      font-size: 1em; 
+    }
+  }
+  
+  .expBox{
+    display:flex;
+    justify-content: space-between;
+
+  }
+  .expImg{
+    width:200px;
+    height:200px;
+  }
+
+  .opImg{
+    width:150px;
+    height:150px;
+  }
+
+  ul{
+    margin-left:5px;
+    li{
+      color:white;
+      font-size: 25px;
+      margin-bottom:10px;
+    }
+  }
