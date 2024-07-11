@@ -2,7 +2,6 @@ import React,{useRef, useState} from 'react';
 import "./Contact.scss";
 import { motion, useInView } from "framer-motion";
 import emailjs from '@emailjs/browser';
-import Footer from '../Footer/Footer';
 import github from "../../assets/github.png";
 import linkedin from "../../assets/linkedin.png";
 
@@ -93,7 +92,7 @@ function Contact() {
                 </motion.form>
             </motion.div>
         </motion.div>
-            <Footer/>
+       
             </>
     )
 }

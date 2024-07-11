@@ -63,12 +63,12 @@ function Experience() {
         triggerOnce: false,
         threshold: 0.1,
     });
-
+    
 
     return (
         <>
             <motion.div className="experience-section" ref={ref1}>
-                <VerticalTimeline lineColor='black'>
+                <VerticalTimeline >
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: 'rgb(33, 150, 243)', color: 'black' }}
@@ -137,7 +137,7 @@ function Experience() {
                 </VerticalTimeline>
             </motion.div>
 
-            <motion.div className="experience-section" ref={ref2}>
+            <motion.div className="experience-section second-page" ref={ref2}>
                 <VerticalTimeline>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
@@ -210,7 +210,7 @@ function Experience() {
                 </VerticalTimeline>
             </motion.div>
 
-            <motion.div className="experience-section" ref={ref3}>
+            <motion.div className="experience-section third-page" ref={ref3}>
                 <VerticalTimeline>
 
                     <VerticalTimelineElement
@@ -230,7 +230,7 @@ function Experience() {
                                         <li>Java, SpringBoot, SQL, Postman</li>
                                         <li> Developed RESTful API endpoints to handle the ingestion of flight delay data
                                             from Excel sheets and store it in a database</li>
-                                        <li>Designed a database schema to ensure fast and reliable storage
+                                        <li className='hide'>Designed a database schema to ensure fast and reliable storage
                                             and retrieval of flight delay data.</li>
                                     </ul>
                                 </motion.div>

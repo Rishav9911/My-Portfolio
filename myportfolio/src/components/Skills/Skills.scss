@@ -1,3 +1,4 @@
+@import "../../App.scss";
 * {
     margin: 0;
     padding: 0;
@@ -19,6 +20,12 @@
     height: 100vh;
     position: relative; 
 
+    @include mobile{
+      margin-top:55%;
+      background-size: contain;
+      background-repeat: none;
+    }
+
     .stars{
       background-image: url("../../assets/stars.png");
       background-size: cover;
@@ -37,6 +44,11 @@
         width: auto;
         position: relative;
         z-index:3;
+
+        @include mobile{
+          height: 60px;
+          width:auto;
+        }
 
         &:hover{
           scale:1.1;
@@ -66,6 +78,11 @@
     &.github {
       left: 23%;
       top: 85%;
+
+      @include mobile{
+        top:75%;
+        left:15%;
+      }
     }
   
     &.java {
@@ -91,6 +108,10 @@
     &.sql {
       left: 30%;
       top: 35%;
+
+      @include mobile{
+        top:90%;
+      }
     }
   
     &.mysql {
@@ -101,16 +122,29 @@
     &.flask {
       left: 80%;
       top: 80%;
+      @include mobile{
+        top:75%;
+      }
     }
   
     &.mern {
       left: 40%;
       top: 65%;
+
+      @include mobile{
+        left:30%;
+        top:45%;
+      }
     }
   
     &.html {
       left: 60%;
       top: 40%;
+
+      @include mobile{
+        left:20%;
+        top:10%;
+      }
     }
   
     &.jupyter {
@@ -121,15 +155,28 @@
   
     &.mern .solar-img {
       height: 200px;
+
+      @include mobile{
+        height:100px;
+      }
     }
     &.java .solar-img {
         height: 150px;
+        @include mobile{
+          height:100px;
+        }
       }
       &.spring .solar-img {
         height: 150px;
+        @include mobile{
+          height:90px;
+        }
       }
       &.pandas .solar-img {
         height: 120px;
+        @include mobile{
+          height:100px;
+        }
       }
     
   }

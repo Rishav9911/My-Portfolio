@@ -5,13 +5,13 @@ function Footer() {
   return (
     <div className='footer'>
 
-        <div className='icons'>
+        <div className='text'>
             Icons credit: Flaticon
         </div>
-        <div className='copyright'>
+        <div className='text'>
             Copyright@RishavSachdeva
         </div>
-        <div className='pics'>
+        <div className='text'>
             Icons credit: freepik
         </div>
       

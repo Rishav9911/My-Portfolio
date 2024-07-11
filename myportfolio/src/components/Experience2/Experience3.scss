@@ -1,5 +1,13 @@
+@import "../../App.scss";
+
 .experience-section {
     padding: 20px;
     background-color: #f4f4f4;
     height:100%;
+
+    @include mobile{
+      padding:80px;
+      background-color: red;
+    }
+
   }

@@ -10,6 +10,7 @@ import Contact from "./components/Contacts/Contact.jsx";
 import Cursor from "./components/cursor/Cursor.jsx";
 import Experience3 from "./components/Experience2/Experience3.jsx";
 import Experience4 from "./components/Experience2/Experience4.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 
 
 
@@ -38,8 +39,10 @@ function App() {
     <Portfolio/>
 
     <section id="Contact"><Contact/></section>
-
-
+ 
+     <div className="footer">
+    <Footer/>
+     </div>
   
     </div>
   )

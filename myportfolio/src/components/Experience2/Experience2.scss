@@ -1,3 +1,4 @@
+@import "../../App.scss";
 
 
 .experience-section {
@@ -28,6 +29,10 @@
     font-size: 1.5rem;
     line-height:0.1rem;
     color:white;
+
+    @include mobile{
+      line-height: 1rem;
+    }
   }
 
  
@@ -61,4 +66,37 @@
       font-size: 25px;
       margin-bottom:10px;
     }
+  }
+
+  .second-page{
+    @include mobile{
+      margin-top:170px;
+      padding:20%;
+    }
+  }
+
+  .third-page{
+    @include mobile{
+      margin-top:160px;
+    }
+
+    .vertical-timeline-element{
+      @include mobile{
+      width:93vw;
+      }
+    }
+
+    ul{
+      @include mobile{
+        width:100%;
+      }
+    }
+
+    .hide{
+      @include mobile{
+        display: none;
+      }
+    }
+
+
   }

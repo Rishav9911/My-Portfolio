@@ -29,11 +29,20 @@
             bottom:20%;
             left:7%;
 
+            @include mobile{
+                bottom:40%;
+                gap:20px;
+            }
+
 
             h1 {
                 font-size: 80px;
                 color:black;
                 width:100%;
+
+                @include mobile{
+                    font-size:40px;
+                }
             }
 
         }
@@ -64,6 +73,16 @@
             top: 0;
             cursor:pointer;
             right: 10%;
+
+
+            @include mobile{
+                height:40vh;
+                width:auto;
+               top:25%;
+                right:0;
+            }
+
+
         }
 
         .meback{
@@ -74,8 +93,15 @@
             position: absolute;
             top: 0;
             right:10%;
-            }
 
+            @include mobile{
+                height:40vh;
+                width:auto;
+               top:25%;
+                right:0;
+            }
+            }
+           
 
 
 
@@ -89,5 +115,11 @@
         color: #dbceceb1;
         width: 100%;
         font-weight: bold;
+
+        @include mobile{
+            bottom:5%;
+            font-size:20vh;
+        }
     }
 }
+
