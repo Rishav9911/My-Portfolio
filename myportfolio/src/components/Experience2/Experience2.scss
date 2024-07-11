@@ -2,7 +2,7 @@
 
 
 .experience-section {
-    background-color: #f4f4f4;
+    background:  linear-gradient(180deg,#0c0c1d,#111132) !important; /*#f4f4f4; */
     height:100%;
 
   }
@@ -15,14 +15,17 @@
   .vertical-timeline-element-title {
     font-size: 2rem;
     font-weight: bold;
-    color:white;
+    color: linear-gradient(180deg,#0c0c1d,#111132);
+    text-transform: uppercase;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
   }
   
   .vertical-timeline-element-subtitle {
     font-size: 1.5rem;
     margin-top:1rem;
     margin-bottom:3rem;
-    color:black;// rgba(255, 255, 255, 0.7); 
+    color:white;// rgba(255, 255, 255, 0.7); 
   }
   
   .vertical-timeline-element p {
@@ -48,6 +51,28 @@
     display:flex;
     justify-content: space-between;
 
+    h4{
+      font-family: "Gruppo", sans-serif;
+      font-weight:900;
+    }
+
+  p{
+    font-family: "Gruppo", sans-serif;
+      font-weight:900;
+      width:100%;
+  }
+
+    ul{
+      margin-left:10px;
+      li{
+        font-family: "Gruppo", sans-serif;
+      font-weight:900;
+        color:white;
+        font-size: 25px;
+        margin-bottom:10px;
+      }
+    }
+
   }
   .expImg{
     width:200px;
@@ -59,14 +84,6 @@
     height:150px;
   }
 
-  ul{
-    margin-left:5px;
-    li{
-      color:white;
-      font-size: 25px;
-      margin-bottom:10px;
-    }
-  }
 
   .second-page{
     @include mobile{

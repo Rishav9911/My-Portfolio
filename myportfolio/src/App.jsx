@@ -24,18 +24,18 @@ function App() {
         <Hero/>
       </section>
      
-      <section id="About"><Parallax content="More about me?" type="about"/></section>
+      <section id="About"><Parallax content="An Insight into My World" type="about"/></section>
       <section><About/></section>
 
-    <section id="Experience"><Parallax content="A Tech Enthusiast?" type="experience"/></section>
+    <section id="Experience"><Parallax content="The Journey So Far" type="experience"/></section>
     <section><Experience2/></section>
     <section><Experience3/></section>
     <section><Experience4/></section>
 
-    <section id="Skills"><Parallax content="Skills" type="skills"/></section>
+    <section id="Skills"><Parallax content="Core Competencies" type="skills"/></section>
     <section><Skills/></section>
 
-    <section id="Projects"><Parallax content="Featured projects" type="projects"/></section>
+    <section id="Projects"><Parallax content="Notable Works" type="projects"/></section>
     <Portfolio/>
 
     <section id="Contact"><Contact/></section>
@@ -49,3 +49,5 @@ function App() {
 }
 
 export default App
+
+// linear-gradient(180deg,#0c0c1d,#111132)

@@ -63,7 +63,7 @@ function Experience() {
         triggerOnce: false,
         threshold: 0.1,
     });
-    
+
 
     return (
         <>
@@ -71,10 +71,10 @@ function Experience() {
                 <VerticalTimeline >
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        contentStyle={{ background: 'rgb(33, 150, 243)', color: 'black' }}
-                        contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                        date={<span style={{ fontSize: '1.5rem' }}>September 2023-October 2023</span>}
-                        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                        contentStyle={{ background: ' #7dc4f2', color: 'black', boxShadow: "white 20px 20px" }}
+                        contentArrowStyle={{ borderRight: '7px solid   #7dc4f2' }}
+                        date={<span style={{ fontSize: '1.5rem', color: 'white' }}>September 2023-October 2023</span>}
+                        iconStyle={{ background: '#fcf468', color: 'black', border: "solid black" }}
                         icon={<FaBriefcase />}
                     >
                         <motion.div variants={textVariants} initial="initial" animate={inView1 ? "animate" : "initial"}>
@@ -82,10 +82,11 @@ function Experience() {
                                 <motion.div className='expTagline'>
                                     <h3 className="vertical-timeline-element-title">Smart India Hackathon</h3>
                                     <h4 className="vertical-timeline-element-subtitle">ROLE: Front-end Development</h4>
-                                    <p>Selected for Internal Hackathon</p>
+                                    <p>Selected for </p>
+                                    <p>Internal Hackathon</p>
                                 </motion.div>
                                 <motion.div className='expLogo'>
-                                    <img src={sih} alt="hacktoberfest" className='opImg' />
+                                    <img src={sih} alt="hacktoberfest" style={{ width: "200px", height: "200px" }} className='opImg' />
                                 </motion.div>
                             </motion.div>
                         </motion.div>
@@ -93,10 +94,10 @@ function Experience() {
 
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        contentStyle={{ background: 'rgb(33, 151, 243)', color: 'black' }}
-                        contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                        date={<span style={{ fontSize: '1.5rem' }}>October 2023</span>}
-                        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                        contentStyle={{ background: ' #7dc4f2', color: 'black', boxShadow: "white 20px 20px" }}
+                        contentArrowStyle={{ borderRight: '7px solid   #7dc4f2' }}
+                        date={<span style={{ fontSize: '1.5rem', color: 'white' }}>October 2023</span>}
+                        iconStyle={{ background: '#fcf468', color: 'black', border: "solid black" }}
                         icon={<FaLaptopCode />}
                     >
                         <motion.div variants={textVariants2} initial="initial" animate={inView1 ? "animate" : "initial"}>
@@ -115,17 +116,17 @@ function Experience() {
 
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        contentStyle={{ background: 'rgb(33, 150, 243)', color: 'black' }}
-                        contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                        date={<span style={{ fontSize: '1.5rem' }}>January 2024</span>}
-                        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                        contentStyle={{ background: ' #7dc4f2', color: 'black', boxShadow: "white 20px 20px" }}
+                        contentArrowStyle={{ borderRight: '7px solid   #7dc4f2' }}
+                        date={<span style={{ fontSize: '1.5rem', color: 'white' }}>January 2024</span>}
+                        iconStyle={{ background: '#fcf468', color: 'black', border: "solid black" }}
                         icon={<RiCodeSSlashFill />}
                     >
                         <motion.div variants={textVariants} initial="initial" animate={inView1 ? "animate" : "initial"}>
                             <motion.div className='expBox'>
                                 <motion.div className='expTagline'>
                                     <h3 className="vertical-timeline-element-title">Codejam V4</h3>
-                                    <h4 className="vertical-timeline-element-subtitle">Role: Front-end & Back-end Development</h4>
+                                    <h4 className="vertical-timeline-element-subtitle">ROLE: Front-end & <br />Back-end Development</h4>
                                     <p>Secured 3rd position</p>
                                 </motion.div>
                                 <motion.div className='expLogo'>
@@ -141,10 +142,10 @@ function Experience() {
                 <VerticalTimeline>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        contentStyle={{ background: 'rgb(33, 150, 243)', color: 'black' }}
-                        contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                        date={<span style={{ fontSize: '1.5rem' }}>January 2024 - Februrary 2024</span>}
-                        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                        contentStyle={{ background: ' #7dc4f2', color: 'black', boxShadow: "white 20px 20px" }}
+                        contentArrowStyle={{ borderRight: '7px solid   #7dc4f2' }}
+                        date={<span style={{ fontSize: '1.5rem', color: 'white' }}>January 2024 - Februrary 2024</span>}
+                        iconStyle={{ background: '#fcf468', color: 'black', border: "solid black" }}
                         icon={<BiCodeCurly />}
                         position='right'
                     >
@@ -164,10 +165,10 @@ function Experience() {
 
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        contentStyle={{ background: 'rgb(33, 150, 243)', color: 'black' }}
-                        contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                        date={<span style={{ fontSize: '1.5rem' }}>January 2024 - Februrary 2024</span>}
-                        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                        contentStyle={{ background: ' #7dc4f2', color: 'black', boxShadow: "white 20px 20px" }}
+                        contentArrowStyle={{ borderRight: '7px solid   #7dc4f2' }}
+                        date={<span style={{ fontSize: '1.5rem', color: 'white' }}>January 2024 - Februrary 2024</span>}
+                        iconStyle={{ background: '#fcf468', color: 'black', border: "solid black" }}
                         icon={<SiBuymeacoffee />}
                         position='left'
                     >
@@ -187,10 +188,10 @@ function Experience() {
 
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        contentStyle={{ background: 'rgb(33, 150, 243)', color: 'black' }}
-                        contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                        date={<span style={{ fontSize: '1.5rem' }}>April 2024</span>}
-                        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                        contentStyle={{ background: ' #7dc4f2', color: 'black', boxShadow: "white 20px 20px" }}
+                        contentArrowStyle={{ borderRight: '7px solid   #7dc4f2' }}
+                        date={<span style={{ fontSize: '1.5rem', color: 'white' }}>April 2024</span>}
+                        iconStyle={{ background: '#fcf468', color: 'black', border: "solid black" }}
                         icon={<RiTeamFill />}
                         position='right'
                     >
@@ -215,10 +216,10 @@ function Experience() {
 
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        contentStyle={{ background: 'rgb(33, 150, 243)', color: 'black' }}
-                        contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                        date={<span style={{ fontSize: '1.5rem' }}>June, 2024 - August, 2024</span>}
-                        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                        contentStyle={{ background: ' #7dc4f2', color: 'black', boxShadow: "white 20px 20px" }}
+                        contentArrowStyle={{ borderRight: '7px solid   #7dc4f2' }}
+                        date={<span style={{ fontSize: '1.5rem', color: 'white' }}>June, 2024 - August, 2024</span>}
+                        iconStyle={{ background: '#fcf468', color: 'black', border: "solid black" }}
                         icon={<FaPlane />}
                     >
                         <motion.div variants={textVariants} initial="initial" animate={inView3 ? "animate" : "initial"}>
@@ -227,7 +228,7 @@ function Experience() {
                                     <h3 className="vertical-timeline-element-title">SpiceJet Ltd, Gurugram</h3>
                                     <h4 className="vertical-timeline-element-subtitle">ROLE: Technical Intern</h4>
                                     <ul>
-                                        <li>Java, SpringBoot, SQL, Postman</li>
+                                        <li>Java , SpringBoot , SQL , Postman</li>
                                         <li> Developed RESTful API endpoints to handle the ingestion of flight delay data
                                             from Excel sheets and store it in a database</li>
                                         <li className='hide'>Designed a database schema to ensure fast and reliable storage

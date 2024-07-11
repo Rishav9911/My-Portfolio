@@ -88,7 +88,7 @@ function Hero() {
 
             </div>
             <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">
-            Software Developer 
+             Developer 
             </motion.div>
 
 

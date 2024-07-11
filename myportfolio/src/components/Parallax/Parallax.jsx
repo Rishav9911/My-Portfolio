@@ -19,7 +19,7 @@ function Parallax(props) {
 
     return (
 
-        <div className='parallax' style={{ background:'linear-gradient(180deg,#0c0c1d,#111132)'}} ref={ref}>
+        <div className='parallax' style={{ background:'black'}} ref={ref}>
             <motion.h1 style={{ y: yText }}  > {props.content}</motion.h1>
             <motion.div className="mountains"></motion.div>
             <motion.div style={{ y: ybg }}  className="planets"></motion.div>

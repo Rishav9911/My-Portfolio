@@ -52,7 +52,7 @@ function Contact() {
         <>
         <motion.div className='contact' variants={variants} initial="initial" whileInView="animate" ref={ref}>
             <motion.div className="textContainer" variants={variants}>
-                <motion.h1 variants={variants}>Let's Work <br /> Together </motion.h1>
+                <motion.h1 variants={variants}>LET'S <br />CONNECT </motion.h1>
                 <motion.div className="item" variants={variants}>
                     <h2>Mail</h2>
                     <span>sachdevarishav449@gmail.com</span>
