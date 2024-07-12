@@ -2,8 +2,10 @@ import React,{useRef, useState} from 'react';
 import "./Contact.scss";
 import { motion, useInView } from "framer-motion";
 import emailjs from '@emailjs/browser';
-import github from "../../assets/github.png";
-import linkedin from "../../assets/linkedin.png";
+import github from "../../assets/github-logo.png";
+import linkedin from "../../assets/linkedin2.png";
+import mail from "../../assets/mail2.png";
+import Button from "../Contacts/Button";
 
 
 const variants = {
@@ -49,25 +51,16 @@ function Contact() {
   };
 
     return (
-        <>
         <motion.div className='contact' variants={variants} initial="initial" whileInView="animate" ref={ref}>
             <motion.div className="textContainer" variants={variants}>
-                <motion.h1 variants={variants}>LET'S <br />CONNECT </motion.h1>
+                <motion.h1 variants={variants}><span style={{color:"orange"}} >LET'S</span> <br />CONNECT </motion.h1>
                 <motion.div className="item" variants={variants}>
-                    <h2>Mail</h2>
-                    <span>sachdevarishav449@gmail.com</span>
+                <motion.div className='links'>
+                    <motion.a href="https://github.com/Rishav9911" target="_blank"><motion.img src={github} alt=""  whileHover={{scale:1.1}} whileTap={{scale:0.9}} /></motion.a>
+                    <motion.a href="https://www.linkedin.com/in/rishavsachdeva9911/" target='_blank'><motion.img src={linkedin} alt="" className='linkedin'  whileHover={{scale:1.1}} whileTap={{scale:0.9}}/></motion.a>
+                    <motion.a href="mailto:sachdevarishav449@gmail.com"><motion.img src={mail} alt="" whileHover={{scale:1.1}} whileTap={{scale:0.9}} /></motion.a>
+
                 </motion.div>
-                <motion.div className="item" variants={variants}>
-                    <h2>Address</h2>
-                    <span>New Delhi, India.</span>
-                </motion.div>
-                <motion.div className="item" variants={variants}>
-                    <h2>Phone</h2>
-                    <span>+91 8595558971</span>
-                <div className='links'>
-                    <a href="https://github.com/Rishav9911" target="_blank"><img src={github} alt="" /></a>
-                    <a href="https://www.linkedin.com/in/rishavsachdeva9911/" target='_blank'><img src={linkedin} alt="" /></a>
-                </div>
                 </motion.div>
             </motion.div>
             <motion.div className="formContainer" >
@@ -86,14 +79,13 @@ function Contact() {
                     <input type="text" required placeholder='Name' name="name" />
                     <input type="email" required placeholder='Email' name="email" />
                     <textarea rows={8} placeholder='Message' name="message" />
-                    <button>Submit</button>
+                    <div className='button'> <Button/></div>
+                   
                     {error && "error"}
                     {success && "success"}
                 </motion.form>
             </motion.div>
         </motion.div>
-       
-            </>
     )
 }
 

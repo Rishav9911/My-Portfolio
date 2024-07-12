@@ -6,13 +6,13 @@ function Footer() {
     <div className='footer'>
 
         <div className='text'>
-            Icons credit: Flaticon
+        <p>Icons made by Freepik & Flaticon</p>
         </div>
         <div className='text'>
             Copyright@RishavSachdeva
         </div>
         <div className='text'>
-            Icons credit: freepik
+        New Delhi, India
         </div>
       
     </div>

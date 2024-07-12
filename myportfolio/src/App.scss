@@ -24,19 +24,26 @@ section{
     height:100vh;
     scroll-snap-align: center;
 }
+@mixin mobile {
+  @media (max-width: 768px) { /* Target screens up to 768px wide */
+    @content;
+  }
+}
 
-@mixin mobile{
-    @media (max-width:738px){
-        @content;
-    }
+@mixin tablet {
+  @media (min-width: 768px) and (max-width: 1024px) { /* Target screens between 768px and 1024px wide */
+    @content;
+  }
 }
-@mixin tablet{
-    @media (max-width:1024px){
-        @content;
-    }
+
+@mixin desktop {
+  @media (min-width: 1024px) and (max-width: 1200px) { /* Target screens 1025px wide and above */
+    @content;
+  }
 }
-@mixin desktop{
-    @media (min-width:1025px){
-        @content;
-    }
+
+@mixin desktop2 {
+  @media (min-width: 1200px) and (max-width: 1500px) { /* Target screens 1025px wide and above */
+    @content;
+  }
 }

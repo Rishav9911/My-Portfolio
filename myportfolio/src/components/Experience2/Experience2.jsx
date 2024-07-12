@@ -67,14 +67,15 @@ function Experience() {
 
     return (
         <>
-            <motion.div className="experience-section" ref={ref1}>
+            <motion.div className="experience-section firstpage" ref={ref1}>
                 <VerticalTimeline >
                     <VerticalTimelineElement
+                     style={{marginTop:"10px"}}
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: ' #7dc4f2', color: 'black', boxShadow: "white 20px 20px" }}
-                        contentArrowStyle={{ borderRight: '7px solid   #7dc4f2' }}
-                        date={<span style={{ fontSize: '1.5rem', color: 'white' }}>September 2023-October 2023</span>}
-                        iconStyle={{ background: '#fcf468', color: 'black', border: "solid black" }}
+                        contentArrowStyle={{ borderRight: '7px solid #7dc4f2' }}
+                        date={<span style={{ fontSize: '2.5rem', color: 'white',fontFamily: "Amatic SC"}}>September 2023-October 2023</span>}
+                        iconStyle={{ background: '#fcf468', color: 'black', border: "solid black"}}
                         icon={<FaBriefcase />}
                     >
                         <motion.div variants={textVariants} initial="initial" animate={inView1 ? "animate" : "initial"}>
@@ -86,7 +87,7 @@ function Experience() {
                                     <p>Internal Hackathon</p>
                                 </motion.div>
                                 <motion.div className='expLogo'>
-                                    <img src={sih} alt="hacktoberfest" style={{ width: "200px", height: "200px" }} className='opImg' />
+                                    <img src={sih} alt="smart india hackathon"  className='sih opImg' />
                                 </motion.div>
                             </motion.div>
                         </motion.div>
@@ -94,9 +95,10 @@ function Experience() {
 
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
+                        style={{marginTop:"-10px"}}
                         contentStyle={{ background: ' #7dc4f2', color: 'black', boxShadow: "white 20px 20px" }}
                         contentArrowStyle={{ borderRight: '7px solid   #7dc4f2' }}
-                        date={<span style={{ fontSize: '1.5rem', color: 'white' }}>October 2023</span>}
+                        date={<span style={{ fontSize: '2.5rem', color: 'white',fontFamily: "Amatic SC"}}>October 2023</span>}
                         iconStyle={{ background: '#fcf468', color: 'black', border: "solid black" }}
                         icon={<FaLaptopCode />}
                     >
@@ -116,9 +118,10 @@ function Experience() {
 
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
+                        style={{marginTop:"-10px"}}
                         contentStyle={{ background: ' #7dc4f2', color: 'black', boxShadow: "white 20px 20px" }}
                         contentArrowStyle={{ borderRight: '7px solid   #7dc4f2' }}
-                        date={<span style={{ fontSize: '1.5rem', color: 'white' }}>January 2024</span>}
+                        date={<span style={{ fontSize: '2.5rem', color: 'white',fontFamily: "Amatic SC"}}>January 2024</span>}
                         iconStyle={{ background: '#fcf468', color: 'black', border: "solid black" }}
                         icon={<RiCodeSSlashFill />}
                     >
@@ -130,7 +133,7 @@ function Experience() {
                                     <p>Secured 3rd position</p>
                                 </motion.div>
                                 <motion.div className='expLogo'>
-                                    <img src={osdc} alt="hacktoberfest" className='opImg' />
+                                    <img src={osdc} alt="codejam v4" className='opImg' />
                                 </motion.div>
                             </motion.div>
                         </motion.div>
@@ -142,9 +145,10 @@ function Experience() {
                 <VerticalTimeline>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
+                        style={{marginTop:"10px"}}
                         contentStyle={{ background: ' #7dc4f2', color: 'black', boxShadow: "white 20px 20px" }}
                         contentArrowStyle={{ borderRight: '7px solid   #7dc4f2' }}
-                        date={<span style={{ fontSize: '1.5rem', color: 'white' }}>January 2024 - Februrary 2024</span>}
+                        date={<span style={{ fontSize: '2.5rem', color: 'white',fontFamily: "Amatic SC"}}>January 2024 - Februrary 2024</span>}
                         iconStyle={{ background: '#fcf468', color: 'black', border: "solid black" }}
                         icon={<BiCodeCurly />}
                         position='right'
@@ -157,7 +161,7 @@ function Experience() {
                                     <p>2 PRs Accepted</p>
                                 </motion.div>
                                 <motion.div className='expLogo'>
-                                    <img src={swoc} alt="hacktoberfest" className='opImg' />
+                                    <img src={swoc} alt="swoc" className='opImg' />
                                 </motion.div>
                             </motion.div>
                         </motion.div>
@@ -167,7 +171,7 @@ function Experience() {
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: ' #7dc4f2', color: 'black', boxShadow: "white 20px 20px" }}
                         contentArrowStyle={{ borderRight: '7px solid   #7dc4f2' }}
-                        date={<span style={{ fontSize: '1.5rem', color: 'white' }}>January 2024 - Februrary 2024</span>}
+                        date={<span style={{ fontSize: '2.5rem', color: 'white',fontFamily: "Amatic SC"}}>January 2024 - Februrary 2024</span>}
                         iconStyle={{ background: '#fcf468', color: 'black', border: "solid black" }}
                         icon={<SiBuymeacoffee />}
                         position='left'
@@ -180,7 +184,7 @@ function Experience() {
                                     <p>7 PRs Accepted</p>
                                 </motion.div>
                                 <motion.div className='expLogo'>
-                                    <img src={jwoc} alt="hacktoberfest" className='opImg' />
+                                    <img src={jwoc} alt="jwoc" className='opImg' />
                                 </motion.div>
                             </motion.div>
                         </motion.div>
@@ -190,7 +194,7 @@ function Experience() {
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: ' #7dc4f2', color: 'black', boxShadow: "white 20px 20px" }}
                         contentArrowStyle={{ borderRight: '7px solid   #7dc4f2' }}
-                        date={<span style={{ fontSize: '1.5rem', color: 'white' }}>April 2024</span>}
+                        date={<span style={{ fontSize: '2.5rem', color: 'white',fontFamily: "Amatic SC"}}>April 2024</span>}
                         iconStyle={{ background: '#fcf468', color: 'black', border: "solid black" }}
                         icon={<RiTeamFill />}
                         position='right'
@@ -203,7 +207,7 @@ function Experience() {
                                     <p>Career Guidance System</p>
                                 </motion.div>
                                 <motion.div className='expLogo'>
-                                    <img src={osdc} alt="hacktoberfest" className='opImg' />
+                                    <img src={osdc} alt="rideHack'24" className='opImg' />
                                 </motion.div>
                             </motion.div>
                         </motion.div>
@@ -216,9 +220,10 @@ function Experience() {
 
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
+                        style={{marginTop:"100px"}}
                         contentStyle={{ background: ' #7dc4f2', color: 'black', boxShadow: "white 20px 20px" }}
                         contentArrowStyle={{ borderRight: '7px solid   #7dc4f2' }}
-                        date={<span style={{ fontSize: '1.5rem', color: 'white' }}>June, 2024 - August, 2024</span>}
+                        date={<span style={{ fontSize: '2.5rem', color: 'white',fontFamily: "Amatic SC"}}>June, 2024 - August, 2024</span>}
                         iconStyle={{ background: '#fcf468', color: 'black', border: "solid black" }}
                         icon={<FaPlane />}
                     >
@@ -236,7 +241,7 @@ function Experience() {
                                     </ul>
                                 </motion.div>
                                 <motion.div className='expLogo'>
-                                    <img src={expLogo} alt="hacktoberfest" className='opImg' />
+                                    <img src={expLogo} alt="spicejet logo" className='opImg' />
                                 </motion.div>
                             </motion.div>
                         </motion.div>

@@ -8,6 +8,16 @@ html, body {
     @include mobile{
       overflow-x: hidden;
     }
+    @include tablet{
+      overflow-x: hidden;
+    }
+    @include desktop{
+      overflow-x: hidden;
+    }
+    @include desktop2{
+      overflow-x: hidden;
+    }
+  
   }
 
 .navbar{
@@ -16,6 +26,7 @@ html, body {
     background-size: cover;
     width:100vw;
     z-index:18;
+
 
    .wrapper{
     max-width:1366px;
@@ -44,6 +55,23 @@ html, body {
               margin-top:50px;
             }
 
+            @include tablet{
+              flex-direction: row;
+              justify-content: space-evenly;
+              gap:6rem;
+              align-items: center;
+              margin-top:3rem;
+            }
+
+            @include desktop{
+              flex-direction: row;
+              justify-content: space-evenly;
+              gap:6rem;
+              align-items: center;
+              margin-top:2rem;
+            }
+ 
+
             .socialMail{
               position: absolute;
               top:2%;
@@ -54,6 +82,16 @@ html, body {
                 margin-left: 100px;
 
               }
+              
+              @include tablet{
+                position:inherit;
+                margin-left: 15rem;
+              }
+              @include desktop{
+                position:inherit;
+                margin-left: 20rem;
+              }
+      
             }
 
             .socialGithub{
@@ -62,6 +100,9 @@ html, body {
               left:89%;
               z-index:100;
               @include mobile{
+                position:inherit;
+              }
+              @include desktop{
                 position:inherit;
               }
             }
@@ -74,6 +115,9 @@ html, body {
               @include mobile{
                 position:inherit;
               }
+              @include desktop{
+                position:inherit;
+              }
             }
 
             img {
@@ -81,6 +125,10 @@ html, body {
                 @include mobile{
                   width:35px;
                 }
+                @include mobile{
+                  width:35px;
+                }
+            
             }
         }
 

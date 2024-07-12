@@ -32,7 +32,7 @@ function Links() {
     },
   };
 
-  const items = ["Homepage", "About","Experience", "Skills", "Projects", "Contact" ];
+  const items = ["Home", "About","Experience", "Skills", "Projects", "Contact" ];
 
   return (
     <motion.div className='links'>

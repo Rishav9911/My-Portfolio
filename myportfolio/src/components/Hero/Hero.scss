@@ -16,6 +16,7 @@
         height: 100%;
         margin: auto;
 
+
         .textContainer {
             // font-family: "Archivo Black", sans-serif;
             font-family: "Amatic SC", sans-serif;
@@ -27,7 +28,7 @@
             gap: 40px;
             position:absolute;
             bottom:20%;
-            left:7%;
+            left:3%;
 
             @include mobile{
                 bottom:40%;
@@ -35,14 +36,41 @@
             }
 
 
+            @include tablet{
+                bottom:30%;
+                gap:20px;
+                text-align: center;
+            }
+
+            @include desktop{
+                text-align: left;
+            }
+            
+            @include desktop2{
+                text-align: left;
+            }
+
+
             h1 {
-                font-size: 80px;
+                font-size: 5rem;
                 color:black;
                 width:100%;
+                z-index:4;
 
                 @include mobile{
                     font-size:40px;
                 }
+                @include tablet{
+                    font-size:4rem;
+                }
+                @include desktop{
+                    font-size:3rem;
+                }
+                @include desktop2{
+                    font-size:3.5rem;
+                }
+              
+              
             }
 
         }
@@ -72,7 +100,7 @@
             position: absolute;
             top: 0;
             cursor:pointer;
-            right: 10%;
+            right: 5%;
 
 
             @include mobile{
@@ -80,6 +108,27 @@
                 width:auto;
                top:25%;
                 right:0;
+            }
+
+            @include tablet{
+                height:65vh;
+                width:auto;
+               top:30%;
+                right:2%;
+            }
+
+
+            @include desktop{
+                height:100%;
+                width:auto;
+               top:0;
+                // right:2%;
+            }
+            @include desktop2{
+                height:100%;
+                width:auto;
+               top:0;
+               right:1%;
             }
 
 
@@ -92,13 +141,34 @@
             max-width: 100%;
             position: absolute;
             top: 0;
-            right:10%;
+            right:5%;
 
             @include mobile{
                 height:40vh;
                 width:auto;
                top:25%;
                 right:0;
+            }
+
+            @include tablet{
+                height:70vh;
+                width:auto;
+               top:25%;
+                right:0;
+            }
+            
+
+            @include desktop{
+                height:100%;
+                width:auto;
+               top:0;
+                // right:2%;
+            }
+            @include desktop2{
+                height:100%;
+                width:auto;
+               top:0;
+               right:1%;
             }
             }
            
@@ -109,17 +179,27 @@
 
     .slidingTextContainer {
         position: absolute;
-        font-size: 50vh;
+        font-size: 40vh;
         bottom: -120px;
         white-space: nowrap;
-        color: #dbceceb1;
+        color: rgb(4, 4, 82); //rgb(167, 163, 163);// #dbceceb1;
+         opacity: 0.3;
         width: 100%;
         font-weight: bold;
+        font-family: "Luckiest Guy", cursive;
 
         @include mobile{
             bottom:5%;
             font-size:20vh;
         }
+
+        @include desktop{
+            bottom:-12%;
+            font-size:30vh;
+        }
     }
 }
+
+
+
 

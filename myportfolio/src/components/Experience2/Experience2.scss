@@ -2,118 +2,297 @@
 
 
 .experience-section {
-    background:  linear-gradient(180deg,#0c0c1d,#111132) !important; /*#f4f4f4; */
-    height:100%;
+  background: linear-gradient(180deg, #0c0c1d, #111132) !important;
+  height: 100%;
+  width: auto;
 
+  @include mobile {
+    width: 100%;
+    margin-left: -100px;
   }
-  
-  .vertical-timeline-element--work {
-    padding:2px 2px;
-    margin-top:70px;
+
+  @include tablet {
+    width: 100%;
+    margin-left: -100px;
   }
-  
-  .vertical-timeline-element-title {
-    font-size: 2rem;
-    font-weight: bold;
-    color: linear-gradient(180deg,#0c0c1d,#111132);
-    text-transform: uppercase;
-    font-family: "Abril Fatface", serif;
-    font-weight: 400;
+
+  @include desktop {
+    width: 100%;
+    margin-left: -10rem;
   }
-  
-  .vertical-timeline-element-subtitle {
-    font-size: 1.5rem;
-    margin-top:1rem;
-    margin-bottom:3rem;
-    color:white;// rgba(255, 255, 255, 0.7); 
+
+}
+
+.vertical-timeline-element {
+  @include mobile {
+    margin-left: 10px;
+    margin-top: 100px;
   }
-  
+
+  @include tablet {
+    margin-left: 1%;
+    margin-top: 1%;
+  }
+
+  @include desktop {
+    margin-left: 0;
+  }
+}
+
+.vertical-timeline-element--work {
+  padding: 2px 2px;
+  margin-top: 89px;
+
+}
+
+.vertical-timeline-element-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: linear-gradient(180deg, #0c0c1d, #111132);
+  text-transform: uppercase;
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+}
+
+.vertical-timeline-element-subtitle {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  color: white; // rgba(255, 255, 255, 0.7); 
+}
+
+.vertical-timeline-element p {
+  font-size: 1.5rem;
+  line-height: 0.1rem;
+  color: white;
+
+  @include mobile {
+    line-height: 1rem;
+  }
+
+  @include tablet {
+    line-height: 1rem;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+
+  .vertical-timeline-element-title,
+  .vertical-timeline-element-subtitle,
   .vertical-timeline-element p {
-    font-size: 1.5rem;
-    line-height:0.1rem;
-    color:white;
-
-    @include mobile{
-      line-height: 1rem;
-    }
+    font-size: 1em;
   }
+}
 
- 
-  @media (max-width: 768px) {
-    .vertical-timeline-element-title,
-    .vertical-timeline-element-subtitle,
-    .vertical-timeline-element p {
-      font-size: 1em; 
-    }
+@media (max-width: 1024px) {
+
+  .vertical-timeline-element-title,
+  .vertical-timeline-element-subtitle,
+  .vertical-timeline-element p {
+    font-size: 2em;
   }
-  
-  .expBox{
-    display:flex;
-    justify-content: space-between;
+}
 
-    h4{
-      font-family: "Gruppo", sans-serif;
-      font-weight:900;
-    }
 
-  p{
+.expBox {
+  display: flex;
+  justify-content: space-between;
+
+  h4 {
     font-family: "Gruppo", sans-serif;
-      font-weight:900;
-      width:100%;
+    font-weight: 900;
   }
 
-    ul{
-      margin-left:10px;
-      li{
-        font-family: "Gruppo", sans-serif;
-      font-weight:900;
-        color:white;
-        font-size: 25px;
-        margin-bottom:10px;
-      }
-    }
-
-  }
-  .expImg{
-    width:200px;
-    height:200px;
+  p {
+    font-family: "Gruppo", sans-serif;
+    font-weight: 900;
+    width: 100%;
   }
 
-  .opImg{
-    width:150px;
-    height:150px;
-  }
+  ul {
+    margin-left: 10px;
 
-
-  .second-page{
-    @include mobile{
-      margin-top:170px;
-      padding:20%;
+    li {
+      font-family: "Gruppo", sans-serif;
+      font-weight: 900;
+      color: white;
+      font-size: 25px;
+      margin-bottom: 10px;
     }
   }
 
-  .third-page{
-    @include mobile{
-      margin-top:160px;
-    }
+}
 
-    .vertical-timeline-element{
-      @include mobile{
-      width:93vw;
-      }
-    }
-
-    ul{
-      @include mobile{
-        width:100%;
-      }
-    }
-
-    .hide{
-      @include mobile{
-        display: none;
-      }
-    }
+.expImg {
+  width: 200px;
+  height: 200px;
+}
 
 
+.opImg {
+  width: 150px;
+  height: 150px;
+
+  @include mobile {
+    width: 50px;
+    height: auto;
   }
+
+  @include tablet {
+    width: 12rem;
+    height: auto;
+  }
+
+}
+
+.sih {
+  width: 200px;
+  height: 200px;
+
+  @include mobile {
+    width: 50px;
+    height: auto;
+  }
+
+  @include tablet {
+    width: 12rem;
+    height: auto;
+  }
+}
+
+.firstpage {
+
+  @include mobile {
+    width: 150vw;
+    margin-top: 0;
+  }
+
+  @include tablet {
+    width: 130vw;
+    margin-top: 0;
+  }
+
+  @include desktop {
+    width: 130vw;
+    margin-top: 0;
+    margin-left:-3.6rem ;
+  }
+
+  .vertical-timeline-element {
+    @include mobile {
+      width: 95vw;
+      height: auto;
+      margin-bottom: 5rem;
+    }
+
+    @include tablet {
+      width: 95vw;
+      height: auto;
+      margin-bottom: 7rem;
+    }
+
+    @include desktop {
+      width: 90vw;
+      height: auto;
+      padding: -1%;
+      margin-bottom: 3.5rem;
+    }
+  }
+}
+
+
+.second-page {
+
+  @include mobile {
+    width: 150vw;
+    margin-top: 35rem;
+  }
+
+  @include tablet {
+    width: 150vw;
+    margin-top: 15rem;
+  }
+
+  @include desktop {
+    width: 150vw;
+    margin-top: 34rem;
+  }
+
+
+  .vertical-timeline-element {
+    @include mobile {
+      width: 95vw;
+      height: auto;
+    }
+
+    @include tablet {
+      width: 95vw;
+      height: auto;
+    }
+
+    @include desktop {
+      width: 95vw;
+      height: auto;
+      margin-bottom: -2rem;
+
+    }
+  }
+
+}
+
+.third-page {
+  @include mobile {
+    width: 150vw;
+    margin-top: 25rem;
+  }
+
+  @include tablet {
+    width: 150vw;
+    margin-top: -1rem;
+  }
+  @include desktop {
+    width: 150vw;
+    margin-top: 27rem;
+  }
+
+  .vertical-timeline-element {
+    @include mobile {
+      width: 95vw;
+      height: auto;
+    }
+
+    @include tablet {
+      width: 95vw;
+      height: auto;
+    }
+    @include desktop {
+      width: 93vw;
+      height: auto;
+    }
+  }
+
+
+  ul {
+    @include mobile {
+      width: 100%;
+    }
+
+    @include tablet {
+      width: 100%;
+    }
+  }
+
+  .hide {
+    @include mobile {
+      display: none;
+    }
+
+    @include tablet {
+      display: none;
+    }
+  }
+
+
+}
