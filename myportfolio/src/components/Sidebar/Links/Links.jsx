@@ -41,7 +41,7 @@ function Links() {
           {item}
         </motion.a>
       ))}
-      <motion.a href="https://drive.google.com/file/d/1AKaLEaE9woTn7k20oDvIm7hdrEQL1BVo/view?usp=sharing" target="_blank" variants={itemVariants} whileHover={{scale:1.1}} whileTap={{scale:0.95}}>Resume</motion.a>
+      <motion.a href="https://drive.google.com/drive/folders/15SD9ot7qUPdzl0jkmCxysshs3n4Ol0hs?usp=sharing" target="_blank" variants={itemVariants} whileHover={{scale:1.1}} whileTap={{scale:0.95}}>Resume</motion.a>
 
       
         <motion.div className='social'>
