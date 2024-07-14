@@ -25,19 +25,20 @@
      
         .links {
             position: absolute;
+            bottom:12%;
             width: 100%;
             height: 100%;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            gap: 10px;
+            gap: 0.5rem;
             font-family: "Gloria Hallelujah", cursive;
             font-weight: 300;
  
 
             a {
-                font-size: 40px;
+                font-size: 2.2rem;
                 @include mobile{
                         font-size:1.5rem;
                         position: relative;
