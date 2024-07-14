@@ -1,3 +1,15 @@
+# My Portfolio
+- Acess site [here](https://my-portfolio-teal-phi-36.vercel.app/)
+- This is my personal Portfolio Website showcasing my skills, experiences , projects and all that you need to know about me. 
+- Used the Tech Stack of React, sass/scss, framer-motion.
+- Please visit the website and be sure to drop your review.
+
+Note: Please note the website may not work properly in your device as it is compatibly designed for bigger screens. 
+
+ Icons Credit
+ - freepik
+ - fliticon
+
 
 ![Screenshot 2024-07-14 195538](https://github.com/user-attachments/assets/d48ffed0-a47a-46f8-8378-81f950322f0b)
 ![Screenshot 2024-07-14 195550](https://github.com/user-attachments/assets/e5ac73f4-428b-4840-a532-00639b8f9a1e)
@@ -15,20 +27,5 @@
 ![Screenshot 2024-07-14 195756](https://github.com/user-attachments/assets/dea94dfb-4cc2-486c-96f7-2295d61fff41)
 ![Screenshot 2024-07-14 195814](https://github.com/user-attachments/assets/4739bc12-133b-4fa3-a209-a42e3eb26105)
 
-
-
-
-
-# My Portfolio
-- Acess site [here](https://my-portfolio-teal-phi-36.vercel.app/)
-- This is my personal Portfolio Website showcasing my skills, experiences , projects and all that you need to know about me. 
-- Used the Tech Stack of React, sass/scss, framer-motion.
-- Please visit the website and be sure to drop your review.
-
-Note: Please note the website may not work properly in your device as it is compatibly designed for bigger screens. 
-
- Icons Credit
- - freepik
- - fliticon
 
 
