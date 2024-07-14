@@ -39,7 +39,7 @@ function About() {
      <motion.div className="aboutMe" variants={textVariants}> One of the things I love most about engineering is the constant learning that comes with it. <span className='hide'>My journey began in <i> Web Development</i> and I enjoy overlooking the backend development of a project. I am currently exploring the world of <i>Data Science, AI and ML </i> and I'm interested in pursuing a profession in this domain.</span></motion.div>
      </motion.div>
 
-     <motion.div className='aboutBox'  initial="initial" animate={inView ? "animate" : "initial"} variants={textVariants}>
+     <motion.div className='aboutBox hidebox'  initial="initial" animate={inView ? "animate" : "initial"} variants={textVariants}>
      <motion.div className="aboutMe" variants={textVariants}> But as life is not all about just working, I try to enjoy life to the fullest,living one day at a time . My favourite leisure activity includes sketching  and binge-watching anime. </motion.div>
      </motion.div>
 

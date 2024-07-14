@@ -47,14 +47,14 @@ html,body{
         display: flex;
         flex-direction: column;
         gap:40px;
-        margin-left:-100px;
+        margin-left:1rem;
 
         @include mobile{
             gap:20px;
             text-align: center;
             align-items: center;
             margin-top:-300px;
-            margin-right:300px;
+            margin-right:400px;
         }
 
         @include tablet{
@@ -85,7 +85,7 @@ html,body{
 
 
         h1{
-            font-size: 150px;
+            font-size: 8rem;
             line-height: 200px;
             font-family: "Monoton", sans-serif;
             font-weight: 400;
@@ -167,7 +167,7 @@ html,body{
             display:flex;
             flex-direction: column;
             gap:3rem;
-            width:600px;
+            width:35rem;
 
             @include mobile{
                 margin-right: 400px;
@@ -189,7 +189,7 @@ html,body{
         }
         
         input,textarea{
-            padding:20px;
+            padding:1rem;
             background-color: transparent;
             border:1px solid white;
             color:white;
