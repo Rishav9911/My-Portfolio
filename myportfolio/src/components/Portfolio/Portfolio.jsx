@@ -5,6 +5,7 @@ import Musique from "../../assets/musique.png";
 import jobmeup from "../../assets/jobmeup.png";
 import netflixclone from "../../assets/netflixclone.png";
 import PartyPenguin from "../../assets/PartyPenguin.png";
+import medminion from "../../assets/medminion.png";
 
 const items = [
     {
@@ -16,6 +17,13 @@ const items = [
     },
     {
         id: 2,
+        title: "MedMinion",
+        img: `${medminion}`,
+        desc: "Led back-end development, ensuring robust user and admin authorization and authentication, and successfully integrated appointment scheduling and medicine recommendation models to enhance user experience.",
+        link: "https://github.com/Rishav9911/MedMinion",
+    },
+    {
+        id: 3,
         title: "Party Penguin",
         img: `${PartyPenguin}`,
         desc: "I implemented organiser authentication, event management, ticketing operations and integrated MongoDB for efficient data handling for this comprehensive event discovery and ticketing platform.",
@@ -23,14 +31,14 @@ const items = [
        
     },
     {
-        id: 3,
+        id: 4,
         title: "Netflix Clone",
         img: `${netflixclone}`,
         desc: "It is a Netflix front-end clone website, designed by me, using the TmDB movie API to fetch the movie posters and required details for the interface made using React and Sass/Scss.",
         link:"https://github.com/Rishav9911/netflixclone",
     },
     {
-        id: 4,
+        id: 5,
         title: "Musique",
         img: `${Musique}`,
         desc: `I implemented LrcLib API to fetch music lyrics and audio for this language-learning platform that lets you learn a language through the power of music. `,
