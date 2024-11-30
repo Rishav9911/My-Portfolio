@@ -3,17 +3,18 @@ import "./Portfolio.scss";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import Musique from "../../assets/musique.png";
 import jobmeup from "../../assets/jobmeup.png";
-import netflixclone from "../../assets/netflixclone.png";
 import PartyPenguin from "../../assets/PartyPenguin.png";
 import medminion from "../../assets/medminion.png";
+import iotmalware from "../../assets/iotmalware";
 
 const items = [
     {
-        id: 1,
-        title: "JobMeUp",
-        img: `${jobmeup}`,
-        desc: "I contributed in crafting a robust supervised Machine Learning model tailored for effectively classifying multi-class datasets for this integrated career guidance platform working on Python & Flask.",
-        link: "https://github.com/Rishav9911/JobMeUp",
+            id: 1,
+            title: "IoT Malware Detection Models",
+            img: `${iotmalware}`, 
+            desc: "Built a multiclass classification model using Python to distinguish between benign activity and 11 malware classes. Leveraged data preprocessing and model training on XGBoost achieving upto 89% accuracy.",
+            link: "https://github.com/Rishav9911/IoT-Malware-Detection-Models",
+        
     },
     {
         id: 2,
@@ -24,18 +25,18 @@ const items = [
     },
     {
         id: 3,
+        title: "JobMeUp",
+        img: `${jobmeup}`,
+        desc: "I contributed in crafting a robust supervised Machine Learning model tailored for effectively classifying multi-class datasets for this integrated career guidance platform working on Python & Flask.",
+        link: "https://github.com/Rishav9911/JobMeUp",
+    },
+    {
+        id: 4,
         title: "Party Penguin",
         img: `${PartyPenguin}`,
         desc: "I implemented organiser authentication, event management, ticketing operations and integrated MongoDB for efficient data handling for this comprehensive event discovery and ticketing platform.",
         link:"https://github.com/Rishav9911/PartyPenguin",
        
-    },
-    {
-        id: 4,
-        title: "Netflix Clone",
-        img: `${netflixclone}`,
-        desc: "It is a Netflix front-end clone website, designed by me, using the TmDB movie API to fetch the movie posters and required details for the interface made using React and Sass/Scss.",
-        link:"https://github.com/Rishav9911/netflixclone",
     },
     {
         id: 5,
