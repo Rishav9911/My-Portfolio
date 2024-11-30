@@ -5,7 +5,7 @@ import Musique from "../../assets/musique.png";
 import jobmeup from "../../assets/jobmeup.png";
 import PartyPenguin from "../../assets/PartyPenguin.png";
 import medminion from "../../assets/medminion.png";
-import iotmalware from "../../assets/iotmalware";
+import iotmalware from "../../assets/iotmalware.png";
 
 const items = [
     {
